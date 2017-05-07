@@ -15,7 +15,7 @@ As you can see we used those API links to complete the project:
 
  You can see my project [here](https://sernalab.github.io/spotifinder-jquery/).
 
-![Snapshot](https://github.com/sernalab/spotifinder-jquery/blob/master/img/home.png)
+![Snapshot](https://github.com/sernalab/spotifinder-2.0-anglar/blob/master/img/cover-github.png)
 
 Also you can see [this](https://github.com/sernalab/spotifinder-carousel-jquery) version of Spotifinder 🎧 with a carousel of albums.
 
