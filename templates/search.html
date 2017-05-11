@@ -1,0 +1,24 @@
+<div class="col-md-6 col-md-offset-3">
+    <form role="form">
+        <h1 class="text-center">Search Title</h1>
+        <div class="form-group">
+            <div class="input-group">
+                <input class="form-control" type="text" name="search" placeholder="Search" required ng-model="artistName" />
+                <div class="input-group-btn">
+                    <button class="btn btn-success" type="submit" ng-click="searchArtist()">
+                        <i class="glyphicon glyphicon-search" aria-hidden="true"></i>
+                        <span>Search</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="col-md-12">
+    <div class="jumbotron">
+        <h1>Artists</h1>
+        <select class="input-lg" ng-model="idArtistSelected" ng-change="artistSelection()">
+            <option ng-repeat="artist in artists" value="{{artist.id}}">{{ artist.name }}</option>
+        </select>
+    </div>
+</div>
